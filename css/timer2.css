@@ -1,0 +1,208 @@
+main{
+  background-color: rgb(59, 71, 141);
+    
+}
+#marticle{
+ text-align: center;
+font-size: 40px;
+padding: 20px;
+
+
+border-radius: 50%;
+
+box-shadow: 16px 14px 20px rgba(28, 28, 22, 0.5);
+
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 20%, rgba(45,253,48,1) 100%) ;
+}
+
+
+
+
+
+
+#main_article{
+    width: 280px;
+    margin: 0 auto;
+
+    background-color: rgba(43, 142, 181, 0.009);
+    padding: 10%;
+
+ 
+}
+#start{
+  background-color: rgb(165, 4, 98);
+  color:rgb(244, 241, 236);
+  font-size: large;
+  
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+
+  width: 80px;
+  height: 40px;
+
+  padding-top:1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#stop{
+  background-color: rgb(165, 4, 98);
+  color:rgb(244, 241, 236);
+  font-size: large;
+  
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+  width: 80px;
+  height: 40px;
+  padding-top:1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#reset{
+  background-color: rgb(20, 7, 67);
+  color:rgb(244, 241, 236);
+  font-size: large;
+  
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+
+  width: 80px;
+
+  padding-top:1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#record{
+  background-color: rgb(20, 7, 67);
+  color:rgb(244, 241, 236);
+  font-size: large;
+  
+  
+  width: 80px;
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+
+  padding-top:1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.marticle_botom{
+  margin: 20px 20px;
+  padding: 10px;
+  color:rgb(212, 233, 118);
+  font-size: large;
+  text-shadow: black;
+  font-weight: 500;
+
+
+
+  font-size: large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+
+
+}
+
+#memory_list li{
+  color: blanchedalmond;
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* border-bottom: 1px solid red; */
+  text-shadow: 0px 3px 3px rgb(46, 70, 100);
+  
+  line-height: 1.4;
+  padding: 2%;
+}
+
+#remove{
+  margin-left: 20%;
+  background-color: rgb(168, 70, 70);
+  border-radius: 40%;
+  color: bisque; 
+  border-width: 0%;
+  border-color: rgb(128, 149, 218);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 120px solid red;
+    border-bottom: 50px solid transparent;
+    border-bottom-left-radius: 90%;
+    
+  }
+  #triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 120px solid red;
+    border-bottom: 50px solid transparent;
+    border-bottom-right-radius: 90%;
+    
+  }
+  #triangle-top-right {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 120px solid red;
+    border-left: 50px solid transparent;
+    border-top-right-radius: 90%;
+    
+  }
+  #triangle-top-left{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 120px solid red;
+    border-left: 50px solid transparent;
+    border-top-left-radius: 90%;
+  }
