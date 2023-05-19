@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: rgb(71, 79, 125);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(87, 138, 122, 1) 100%);
+  margin: 0 auto;
+  height: 100wh;
+  /* background-image:url(/images/timer.png); */
+
+}
+
+
+header {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Noto Sans Nag Mundari', sans-serif;
+  padding: 60px;
+  text-align: center;
+  background: hsla(229, 7%, 49%, 0);
+  color: white;
+  font-size: 40px;
+
+  text-shadow: 2px 2px rgb(20, 35, 28);
+}
+
+
+
+.article {
+  background-color: rgba(25, 143, 84, 0.121);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  margin: 0 auto;
+
+  padding: 3%;
+
+
+  border-left: 1px solid rgb(46, 53, 133);
+  border-right: 1px solid rgb(25, 38, 107);
+
+
+
+
+}
+
+#diver {
+  border: 2px dashed rgb(18, 3, 3);
+
+  width: 340px;
+  height: 340px;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 0.9) 20%, rgba(45, 253, 48, 0.8) 100%);
+
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+#diver::before {
+  content: "";
+  background-image: conic-gradient(#53a8dd46 20deg,
+      transparent 120deg);
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+  z-index: -1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+.timer_display {
+  display: flex;
+  justify-content: center;
+}
+
+.timer_buttons {
+
+  padding: 20px;
+
+}
+
+.timer_buttons button {
+
+  margin: 5px;
+}
+
+
+
+
+#start {
+  background-color: rgb(165, 4, 98);
+  color: rgb(244, 241, 236);
+  font-size: large;
+
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+
+  width: 205px;
+  height: 40px;
+
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-shadow: 16px 14px 20px #0000008c;
+
+}
+
+#stop {
+
+
+  background-color: rgb(165, 4, 98);
+  color: rgb(244, 241, 236);
+  font-size: large;
+
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+  width: 100px;
+  height: 40px;
+  padding-top: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  box-shadow: 16px 14px 20px #0000008c;
+
+}
+
+#egg_stop {
+
+
+  background-color: rgb(165, 4, 98);
+  color: rgb(244, 241, 236);
+  font-size: large;
+
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+  width: 100px;
+  height: 40px;
+  padding-top: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  box-shadow: 16px 14px 20px #0000008c;
+
+}
+
+#pause {
+
+
+  background-color: rgb(240, 5, 142);
+  color: rgb(244, 241, 236);
+  font-size: large;
+
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+  width: 100px;
+  height: 40px;
+  padding-top: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  box-shadow: 16px 14px 20px #0000008c;
+
+}
+
+
+#reset {
+  background-color: rgb(20, 7, 67);
+  color: rgb(244, 241, 236);
+  font-size: large;
+
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+
+  width: 100px;
+  height: 30px;
+
+  padding-top: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  box-shadow: 16px 14px 20px #0000008c;
+
+}
+
+#record {
+  background-color: rgb(20, 7, 67);
+  color: rgb(244, 241, 236);
+  font-size: large;
+
+
+  width: 100px;
+  height: 30px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  border: 0.4px solid rgb(212, 211, 211);
+  border-radius: 10px 10px;
+
+  padding-top: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  box-shadow: 16px 14px 20px #0000008c;
+
+}
+
+.marticle_botom {
+  margin: 20px 20px;
+  padding: 10px;
+  color: rgb(211, 233, 66);
+  font-weight: bolder;
+  font-size: xx-large;
+  text-shadow: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+
+
+  font-size: large;
+  font-family: system-ui;
+
+}
+
+footer {
+  width: 400px;
+  margin: auto;
+}
+
+#memory_list li {
+  color: rgb(130, 220, 51);
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* border-bottom: 1px solid red; */
+  text-shadow: 0px 3px 3px rgb(46, 70, 100);
+  line-height: 1.4;
+  padding: 2%;
+}
+
+#remove {
+  margin-left: 20%;
+  border-radius: 50%;
+  color: rgb(234, 71, 71);
+  text-align: center;
+  text-decoration: underline;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+.main_timer {
+  color: aliceblue;
+  font-size: xxx-large;
+
+}
+
+#msec {
+  color: rgb(200, 22, 22);
+}
+
+#egg {
+  display: flex;
+  margin: auto;
+  padding-top: 20px;
+  border-radius: 50%;
+  height: 68px;
+  width: 55px;
+  border-color: rgb(63, 98, 129);
+
+  font-weight: 700;
+  color: rgb(19, 23, 23);
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#egg:hover {
+  color: #fff;
+  background-color: rgb(131, 132, 131);
+
+}
+
+.moving {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 40%;
+  animation: 5s linear infinite;
+
+  position: relative;
+  animation: myfirst 5s linear 1s infinite;
+}
+
+
+
+@keyframes myfirst {
+  0% {
+    background-color: red;
+    right: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: yellow;
+    right: 20px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: blue;
+    right: 0px;
+    top: 0px;
+  }
+
+  75% {
+    background-color: yellow;
+    right: 20px;
+    ;
+    top: 0px;
+  }
+
+  100% {
+    background-color: rgb(0, 255, 64);
+    top: 0px;
+  }
+}
+
+#check {
+  padding-bottom: 3px;
+}
